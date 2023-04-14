@@ -1,0 +1,33 @@
+
+.qr-instructions {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 540px) {
+  
+    #generate-container {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    #qr-container {    
+        height: 870px;
+    }
+
+}
+
+@media only screen and (min-width: 541px) and (max-width: 991.9px) {
+
+    #qr-container {    
+        height: 100vh;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+  
+    #qr-container {    
+        height: 110vh;
+    }   
+}
